@@ -5,7 +5,7 @@ import RightsideBar from '../component/pageComp/BreakingNews/RightsideBar';
 import MoreArticle from '../component/pageComp/MoreNews/MoreArticle';
 import ArtMotion from '../component/pageComp/ArtMotion';
 import Hr from '../component/pageComp/Hr';
-import WeekendCard from '../component/pageComp/Weekends/weekendCard';
+import WeekendCard from '../component/pageComp/Weekends/WeekendCard';
 import Article from '../component/pageComp/Article'
 import Editors from '../component/pageComp/Editors'
 
@@ -21,6 +21,7 @@ import {
   culture1,
   editorData
 } from '../Data/HomePageData';
+
 
 
 

@@ -20,7 +20,7 @@ import Live from '../../Page/Live';
 import Register from '../Register/Register';
 import Sign from '../Register/Sign';
 import ErrorPage from '../../Page/ErrorPage';
-import Privacy from '../policy/privacy';
+import Privacy from '../policy/Privacy';
 import AboutBBC from '../policy/AboutBBC'
 
 function Router() {

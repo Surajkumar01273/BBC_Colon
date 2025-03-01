@@ -1,5 +1,4 @@
 import React from 'react';
-import BreakingNews from '.././component/pageComp/BreakingNews/BreakingNews';
 import LeftsideBar from '../component/pageComp/BreakingNews/LeftsideBar';
 import Mid from '../component/pageComp/BreakingNews/Mid';
 import RightsideBar from '../component/pageComp/BreakingNews/RightsideBar';

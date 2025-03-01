@@ -6,7 +6,7 @@ import Article from './Article';
 import Editors from '../pageComp/Editors'
 import Hr from './Hr';
 import MoreArticle from './MoreNews/MoreNewsCards';
-import WeekendCard from './Weekends/weekendCard';
+import WeekendCard from './Weekends/WeekendCard';
 import ArtMotion from './ArtMotion'
 import History from './HistoryComp/History'
 import HistoryText from './HistoryComp/HistoryText';

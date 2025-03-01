@@ -1,5 +1,5 @@
 import React from 'react';
-import WeekendCard from './weekendCard';
+import WeekendCard from './WeekendCard';
 import {Weekends} from '../../../Data/HomePageData'
 
 const Weekend = () => {

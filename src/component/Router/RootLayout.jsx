@@ -1,16 +1,34 @@
-import React from 'react'
-import { Outlet } from "react-router-dom"; 
-import Navbar from '../Header/Navbar'
-import Footer from '../Header/Footer';
+import React, { useEffect, useState } from "react";
+import { Outlet, useLocation } from "react-router-dom";
+import Navbar from "../Header/Navbar";
+import Footer from "../Header/Footer";
 
 function RootLayout() {
+  const [loading, setLoading] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setLoading(true); 
+    const timer = setTimeout(() => {
+      setLoading(false); 
+    }, 1000);
+
+    return () => clearTimeout(timer); 
+  }, [location]); 
+
   return (
     <div>
       <Navbar />
-      <Outlet />
+      
+      {loading ? (
+        <p className="text-center pt-40 h-screen font-semibold text-xl">Loading...</p> 
+      ) : (
+        <Outlet />
+      )}
+
       <Footer />
     </div>
-  )
+  );
 }
 
-export default RootLayout
+export default RootLayout;

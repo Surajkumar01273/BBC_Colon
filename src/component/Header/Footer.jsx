@@ -10,7 +10,7 @@ import {footerData} from '../../Data/HomePageData'
 
 function Footer() {
   return (
-    <div className=''>
+    <div className='z-[100]'>
       <div className='mt-10 lg:mt-30  mb-20 border-t px-4 xl:px-30'>
         <div className={`flex items-center h-16  cursor-pointer`}>
           <img src='/bbcicon1.png' alt='Logo' className='h-24 w-auto' />

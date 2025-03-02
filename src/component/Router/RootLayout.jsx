@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../Header/Navbar";
 import Footer from "../Header/Footer";
+import LoadingScreen from "../Header/ScreenLoder";
 
 function RootLayout() {
   const [loading, setLoading] = useState(false);
@@ -21,7 +22,8 @@ function RootLayout() {
       <Navbar />
       
       {loading ? (
-        <p className="text-center pt-40 h-screen font-semibold text-xl">Loading...</p> 
+        // <p className="text-center pt-40 h-screen font-semibold text-xl">Loading...</p> 
+        <LoadingScreen />
       ) : (
         <Outlet />
       )}

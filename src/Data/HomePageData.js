@@ -964,6 +964,11 @@ export const footerData = [
 ]
 
 
+export const registerImg = {
+  "image":  "https://ichef.bbci.co.uk/images/ic/raw/p0k21mq7.jpg.webp"
+}
+
+
 
 
 
